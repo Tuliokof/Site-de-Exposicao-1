@@ -1,0 +1,56 @@
+/* Estilos para o modo escuro */
+.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+}
+
+/* Estilos específicos para o cabeçalho e rodapé no modo escuro */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #0e0d0d;
+    color: #f9f9f9;
+}
+
+/* Links no modo escuro */
+.dark-mode nav a {
+    color: #f9f9f9;
+}
+
+/* Botão de alternância */
+#dark-mode-toggle {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #ff4000;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background-color: #ffffff;
+}
+
+/* Estilo global para o texto no modo escuro */
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode p, 
+.dark-mode label, 
+.dark-mode a {
+    color: #f9f9f9; /* Cor clara para contraste */
+}
+
+/* Estilos para o formulário no modo escuro */
+.dark-mode input, 
+.dark-mode textarea, 
+.dark-mode button {
+    background-color: #444; /* Fundo escuro */
+    color: #f9f9f9; /* Texto claro */
+    border: 1px solid #666; /* Borda para destaque */
+}
+
+.dark-mode input::placeholder, 
+.dark-mode textarea::placeholder {
+    color: #ccc; /* Placeholder mais claro */
+}

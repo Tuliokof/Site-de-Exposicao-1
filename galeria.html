@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Nossos Interesses</title>
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="src/style/botao.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Sobre</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="cadastro.html">Cadastro</a>
+            <button id="dark-mode-toggle">Modo Escuro</button>
+        </nav>
+    </header>
+    <main>
+        <h1>Galeria: Nossas séries</h1>
+        <section id="W">
+            <!-- Card de The Witcher -->
+            <article class="card" onmouseover="mostraDetalhes(0)" onmouseleave="escondeDetalhes(0)">
+                <img src="Fotos da Galeria/The Wtcher.jpg" alt="The Witcher">
+                <h2>The Witcher</h2>
+                <p>
+                    A série The Witcher é uma adaptação da saga de livros Wiedźmin do escritor polonês Andrzej Sapkowski. <br>
+                    A trama se passa em um mundo de fantasia medieval e conta a história de Geralt de Rívia,  <br>
+                    um bruxo caçador de monstros que luta para encontrar seu lugar em um mundo onde as pessoas são mais perversas que as criaturas selvagens
+                </p>
+                <p></p>
+            </article>
+            
+            <!-- Card de Alquimia das Almas -->
+            <article class="card" onmouseover="mostraDetalhes(1)" onmouseleave="escondeDetalhes(1)">
+                <img src="Fotos da Galeria/Alquimia das Almas.jpg" alt="Alquimia das Almas">
+                <h2>Alquimia das Almas</h2>
+                <p>
+                    Alquimia das Almas é uma série que se passa em um país fictício chamado Daeho e conta a história de Naksu, <br>
+                    uma feiticeira que transfere sua alma para o corpo de uma jovem cega para se vingar do assassinato de seu pai.
+                </p>
+                <p></p>
+            </article>
+
+            <!-- Card de The Good Place -->
+            <article class="card" onmouseover="mostraDetalhes(2)" onmouseleave="escondeDetalhes(2)">
+                <img src="Fotos da Galeria/The Good Place.jpg" alt="The Good Place">
+                <h2>The Good Place</h2>
+                <p>
+                    The Good Place é uma série de TV americana que conta a história de Eleanor Shellstrop, <br> 
+                    uma mulher que morre e acaba por engano no "Good Place" (Lugar Bom). Eleanor percebe que não merece estar <br>
+                    lá e tenta enganar o administrador do lugar, Michael, para conseguir permanecer.
+                </p>
+                <p></p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 - Grupo de Desenvolvimento Web</p>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>

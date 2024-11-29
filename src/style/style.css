@@ -1,0 +1,132 @@
+body {
+    font-family: system-ui;
+    margin: 0;
+    padding: 0;
+    background-color: #e58c33;
+}
+
+article p {
+    text-align: justify;
+}
+
+header{
+    background-color: #f46100;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+}
+
+main {
+    padding: 50px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card, article {
+    background-color: #f69503;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.34);
+    transition: transform 0.3s;
+    
+}
+
+.card:hover, article:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 150px; /* Largura fixa */
+    height: 150px; /* Altura fixa */
+    object-fit: cover; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Opcional: cantos arredondados */
+    transition: transform 0.3s; /* Adiciona uma animação ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+}
+
+/* Cartões e artigos no modo escuro */
+.dark-mode article, 
+.dark-mode .card {
+    background-color: #000000; /* Fundo mais escuro */
+    color: #75727211; /* Texto claro */
+    border: 1px solid #030303; /* Borda visível */
+}
+
+/* Links no modo escuro */
+.dark-mode nav a {
+    color: #f0ebeb; /* Links visíveis */
+}
+
+/* Botão no modo escuro */
+.dark-mode #dark-mode-toggle {
+    background-color: #5d5c5c;
+    color: #f58403;
+}
+
+/* Estilos para a galeria */
+#g {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #f59401;
+    border: 1px solid #f8f7f7;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-color 0.3s;
+    overflow: hidden;
+}
+
+.card img {
+    width: 75%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.card p {
+    padding: 0 10px 10px;
+    font-size: 1em;
+    color: #000000;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #fffefe;
+    
+}
+textarea{
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
